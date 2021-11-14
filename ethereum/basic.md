@@ -30,3 +30,9 @@ https://etherscan.io/address/0xde0b295669a9fd93d5f28d9ec85e40f4cb697bae
 # ACCOUNTS
 An Ethereum account is an entity with an ether (ETH) balance that can send transactions on Ethereum. Accounts can be user-controlled or deployed as smart contracts.
 
+
+## GAS
+
+Gas refers to the unit that measures the amount of computational effort required to execute specific operations on the Ethereum network.
+
+Since each Ethereum transaction requires computational resources to execute, each transaction requires a fee. Gas refers to the fee required to conduct a transaction on Ethereum successfully.
