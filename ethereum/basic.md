@@ -32,7 +32,11 @@ An Ethereum account is an entity with an ether (ETH) balance that can send trans
 
 
 ## GAS
-
 Gas refers to the unit that measures the amount of computational effort required to execute specific operations on the Ethereum network.
-
 Since each Ethereum transaction requires computational resources to execute, each transaction requires a fee. Gas refers to the fee required to conduct a transaction on Ethereum successfully.
+
+## MINING
+Mining is the process of creating a block of transactions to be added to the Ethereum blockchain.
+Ethereum, like Bitcoin, currently uses a  [proof-of-work (PoW)](https://ethereum.org/en/developers/docs/consensus-mechanisms/pow/)  consensus mechanism. Mining is the lifeblood of proof-of-work. Ethereum miners - computers running software - using their time and computation power to process transactions and produce blocks.
+In decentralized systems like Ethereum, we need to ensure that everyone agrees on the order of transactions. Miners help this happen by solving computationally difficult puzzles to produce blocks, securing the network from attacks.
+

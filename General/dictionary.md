@@ -11,3 +11,4 @@ The sequence of all blocks that have been committed to the Ethereum network in t
 
 ### Nodes
 Every computer in the network must agree upon each new block and the chain as a whole. These computers are known as "nodes". Nodes ensure everyone interacting with the blockchain has the same data. To accomplish this distributed agreement, blockchains need a consensus mechanism.
+
