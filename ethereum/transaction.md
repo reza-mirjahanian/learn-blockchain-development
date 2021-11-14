@@ -19,3 +19,16 @@ On Ethereum there are a few different types of transactions:
 
 -   Regular transactions: a transaction from one wallet to another.
 -   Contract deployment transactions: a transaction without a 'to' address, where the data field is used for the contract code
+
+
+## TRANSACTION LIFECYCLE
+
+Once the transaction has been submitted the following happens:
+
+1.  Once you send a transaction, cryptography generates a transaction hash:  `0x97d99bc7729211111a21b12c933c949d4f31684f1d6954ff477d0477538ff017`
+2.  The transaction is then broadcast to the network and included in a pool with lots of other transactions.
+3.  A miner must pick your transaction and include it in a block in order to verify the transaction and consider it "successful".
+    -   You may end up waiting at this stage if the network is busy and miners aren't able to keep up.
+4.  Your transaction will receive "confirmations". The number of confirmations is the number of blocks created since the block that included your transaction. The higher the number, the greater the certainty that the network processed and recognised the transaction.
+    -   Recent blocks may get re-organised, giving the impression the transaction was unsuccessful; however, the transaction may still be valid but included in a different block.
+    -   The probability of a re-organisation diminishes with every subsequent block mined, i.e. the greater the number of confirmations, the more immutable the transaction is.
